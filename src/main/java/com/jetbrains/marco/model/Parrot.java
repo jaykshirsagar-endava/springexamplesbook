@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
 @Data
-@Component
+//@Component
 public class Parrot {
    private String name;
 //    @PostConstruct
