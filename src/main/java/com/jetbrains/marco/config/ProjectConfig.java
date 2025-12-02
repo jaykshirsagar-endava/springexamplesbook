@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "main")
+@ComponentScan(basePackages = "beans")
 public class ProjectConfig {
     @Bean
     Parrot parrot1() {
@@ -16,13 +16,13 @@ public class ProjectConfig {
         return p;
     }
 
-    @Bean
-    public Person person() {
-        Person p = new Person();
-        p.setName("Ella");
-        p.setParrot(parrot1());
-        return p;
-    }
+//    @Bean
+//    public Person person() {
+//        Person p = new Person();
+//        p.setName("Ella");
+//        p.setParrot(parrot1());
+//        return p;
+//    }
 
 //    @Bean
 //    Parrot parrot2() {
