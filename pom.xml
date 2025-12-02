@@ -11,6 +11,7 @@
   <url>http://maven.apache.org</url>
     <modules>
         <module>ch5</module>
+        <module>ch6</module>
     </modules>
 
     <properties>
